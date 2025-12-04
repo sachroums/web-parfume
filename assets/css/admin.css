@@ -1,0 +1,472 @@
+/* =======================
+   GLOBAL STYLES
+======================= */
+body {
+        background: #fdeef4;
+        font-family: 'Poppins', sans-serif;
+        padding: 40px;
+    }
+/* =======================
+   DASHBOARD ADMIN PAGE
+======================= */
+
+    h1.title {
+        text-align: center;
+        font-size: 36px;
+        font-weight: 700;
+        color: #c2185b;
+        margin-bottom: 40px;
+    }
+
+    /* Grid layout */
+    .dashboard-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+        gap: 25px;
+        max-width: 1000px;
+        margin: auto;
+    }
+
+    /* Card modern */
+    .card {
+        background: white;
+        border-radius: 16px;
+        padding: 28px 20px;
+        text-align: center;
+        box-shadow: 0 4px 15px rgba(0,0,0,0.08);
+        transition: 0.3s;
+        cursor: pointer;
+    }
+
+    .card:hover {
+        transform: translateY(-5px);
+        box-shadow: 0 8px 20px rgba(0,0,0,0.12);
+    }
+
+    .card-icon {
+        font-size: 40px;
+        color: #c2185b;
+        margin-bottom: 15px;
+    }
+
+    h3 {
+        font-size: 20px;
+        margin-bottom: 8px;
+        color: #444;
+    }
+
+    .card a {
+        font-weight: 600;
+        color: #c2185b;
+        text-decoration: none;
+        font-size: 14px;
+    }
+
+    .card a:hover {
+        text-decoration: underline;
+    }
+
+/* =======================
+   BERITA ADMIN PAGE
+======================= */
+        .img-thumb {
+            width: 80px;
+            border-radius: 8px;
+            box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+        }
+
+        table {
+            border-collapse: collapse;
+            width: 100%;
+            background: white;
+        }
+
+        th {
+            background: #f8c4d8;
+            padding: 10px;
+            font-weight: bold;
+            text-align: center;
+        }
+
+        td {
+            padding: 10px;
+            vertical-align: middle;
+            text-align: center;
+        }
+
+        body {
+            background: #fdeef4;
+            font-family: Arial, sans-serif;
+        }
+
+        .header-admin {
+            background:#f8a8c8; 
+            padding:15px; 
+            font-weight:bold; 
+            color:#fff;
+            font-size: 20px;
+            margin-bottom: 20px;
+        }
+
+        a {
+            color: #c2185b;
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+/* =======================
+    CONTACT ADMIN PAGE
+======================= */
+
+/* =======================
+    LAYANAN ADMIN PAGE
+======================= */
+        label {
+            font-weight: bold;
+            color: #c2185b;
+        }
+
+        input, textarea {
+            width: 100%;
+            padding: 8px;
+            margin: 6px 0 15px 0;
+            border: 1px solid #ccc;
+            border-radius: 6px;
+        }
+
+        .img-thumb {
+            width: 120px;
+            border-radius: 8px;
+            margin-bottom: 10px;
+        }
+
+        .btn {
+            padding: 10px 20px;
+            background: #c2185b;
+            color: white;
+            border-radius: 6px;
+            border: none;
+            cursor: pointer;
+        }
+
+        .btn:hover {
+            background: #a0154c;
+        }
+
+     .img-thumb {
+            width: 80px;
+            border-radius: 8px;
+            box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+        }
+
+        table {
+            border-collapse: collapse;
+            width: 100%;
+            background: white;
+        }
+
+        th {
+            background: #f8c4d8;
+            padding: 10px;
+            font-weight: bold;
+            text-align: center;
+        }
+
+        td {
+            padding: 10px;
+            vertical-align: middle;
+            text-align: center;
+        }
+
+        body {
+            background: #fdeef4;
+            font-family: Arial, sans-serif;
+        }
+
+        .header-admin {
+            background:#f8a8c8; 
+            padding:15px; 
+            font-weight:bold; 
+            color:#fff;
+            font-size: 20px;
+            margin-bottom: 20px;
+        }
+
+        a {
+            color: #c2185b;
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+/* =======================
+    PENGUMUMAN ADMIN PAGE
+======================= */
+        .img-thumb {
+            width: 80px;
+            border-radius: 8px;
+            box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+        }
+
+        table {
+            border-collapse: collapse;
+            width: 100%;
+            background: white;
+        }
+
+        th {
+            background: #f8c4d8;
+            padding: 10px;
+            font-weight: bold;
+            text-align: center;
+        }
+
+        td {
+            padding: 10px;
+            vertical-align: middle;
+            text-align: center;
+        }
+
+        body {
+            background: #fdeef4;
+            font-family: Arial, sans-serif;
+        }
+
+        .header-admin {
+            background:#f8a8c8; 
+            padding:15px; 
+            font-weight:bold; 
+            color:#fff;
+            font-size: 20px;
+            margin-bottom: 20px;
+        }
+
+        a {
+            color: #c2185b;
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+/* =======================
+    PRODUK ADMIN PAGE
+======================= */
+        label {
+            font-weight: bold;
+            color: #c2185b;
+        }
+
+        input, textarea, select {
+            width: 100%;
+            padding: 8px;
+            margin: 6px 0 15px 0;
+            border: 1px solid #ccc;
+            border-radius: 6px;
+        }
+
+        .img-thumb {
+            width: 100px;
+            border-radius: 6px;
+            margin-bottom: 10px;
+        }
+
+        .btn {
+            padding: 10px 20px;
+            background: #c2185b;
+            color: white;
+            border-radius: 6px;
+            border: none;
+            cursor: pointer;
+        }
+
+        .btn:hover {
+            background: #a0154c;
+        }
+
+        .img-thumb {
+            width: 80px;
+            border-radius: 6px;
+            box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+        }
+
+        table {
+            border-collapse: collapse;
+            width: 100%;
+            background: white;
+        }
+
+        th {
+            background: #f8c4d8;
+            padding: 10px;
+            font-weight: bold;
+            text-align: center;
+        }
+
+        td {
+            padding: 10px;
+            vertical-align: middle;
+            text-align: center;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background: #fdeef4;
+        }
+
+        a {
+            color: #c2185b;
+        }
+
+        body {
+            background: #fdeef4;
+            font-family: Arial;
+        }
+
+        label {
+            font-weight: bold;
+            color: #c2185b;
+        }
+
+        input, textarea, select {
+            width: 100%;
+            padding: 8px;
+            margin: 6px 0 15px 0;
+            border: 1px solid #ccc;
+            border-radius: 6px;
+        }
+
+        .btn {
+            padding: 10px 20px;
+            background: #c2185b;
+            color: white;
+            border-radius: 6px;
+            border: none;
+            cursor: pointer;
+        }
+
+        .btn:hover {
+            background: #a0154c;
+        }
+
+/* =======================
+    TEAM ADMIN PAGE
+======================= */
+        h1 {
+            color: #c2185b;
+            font-size: 32px;
+            margin-bottom: 20px;
+        }
+
+        form {
+            max-width: 450px;
+        }
+
+        label {
+            display: block;
+            margin-top: 15px;
+            font-weight: bold;
+        }
+
+        input[type="text"],
+        textarea,
+        input[type="file"] {
+            width: 100%;
+            padding: 8px;
+            margin-top: 5px;
+            border-radius: 5px;
+            border: 1px solid #ccc;
+        }
+
+        button {
+            margin-top: 20px;
+            padding: 10px 20px;
+            background: #c2185b;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-weight: bold;
+        }
+
+        button:hover {
+            background: #a3164e;
+        }
+
+        a {
+            display: inline-block;
+            margin-top: 10px;
+            color: #c2185b;
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+/* =======================
+    VIDEO ADMIN PAGE
+======================= */
+        .img-thumb {
+            width: 80px;
+            height: 80px;
+            object-fit: cover;
+            border-radius: 8px;
+            box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+        }
+
+        table {
+            border-collapse: collapse;
+            width: 100%;
+            background: white;
+        }
+
+        th {
+            background: #f8c4d8;
+            padding: 10px;
+            font-weight: bold;
+            text-align: center;
+        }
+
+        td {
+            padding: 10px;
+            vertical-align: middle;
+            text-align: center;
+        }
+
+        body {
+            background: #fdeef4;
+            font-family: Arial, sans-serif;
+        }
+
+        h1 {
+            color: #c2185b;
+        }
+
+        .btn-add {
+            display: inline-block;
+            background: #c2185b;
+            color: white;
+            padding: 8px 14px;
+            border-radius: 6px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        .btn-add:hover {
+            background: #a0134c;
+        }
+
+        a {
+            color: #c2185b;
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
